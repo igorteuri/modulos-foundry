@@ -230,7 +230,6 @@
       topbar(false),
       h("main", { class: "wrap" },
         h("div", { class: "mhead" },
-          h("p", { class: "crumb" }, h("a", { href: "index.html" }, "← Todos os módulos")),
           h("h1", {}, m.title),
           h("div", { class: "chips" }, chipStatus(m), h("span", { class: "chip light" }, `v${m.version}`), h("span", { class: "chip light" }, `Foundry ${m.foundry}`)),
           h("p", { class: "lead" }, m.tagline),
